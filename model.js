@@ -1,6 +1,10 @@
 import { getRandomId, shuffleArray } from "./helper.js";
 import { API_URL } from "./config.js";
 
+import "core-js/stable";
+import "regenerator-runtime/runtime";
+import { async } from "regenerator-runtime";
+
 export const state = {
   pokemons: [],
 };
