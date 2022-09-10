@@ -1,0 +1,31 @@
+{
+  "name": "match-two-game",
+  "version": "1.0.0",
+  "description": "",
+  "default": "index.html",
+  "targets": {
+    "main": false
+  },
+  "scripts": {
+    "start": "npx parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emrekupcuoglu/PokeMatch-Game.git"
+  },
+  "author": "Emre Küpçüoğlu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emrekupcuoglu/PokeMatch-Game/issues"
+  },
+  "homepage": "https://github.com/emrekupcuoglu/PokeMatch-Game#readme",
+  "browserslist": "> 0.25%, not dead",
+  "dependencies": {
+    "core-js": "^3.25.1",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}

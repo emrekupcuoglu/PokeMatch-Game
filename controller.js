@@ -1,6 +1,10 @@
 import * as model from "./model.js";
 import appView from "./appView.js";
 
+import "core-js/stable";
+import "regenerator-runtime/runtime";
+import { async } from "regenerator-runtime";
+
 const controlReset = async function () {
 
   model.state.pokemons = await model.getData();
