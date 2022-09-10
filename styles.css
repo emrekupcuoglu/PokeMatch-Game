@@ -19,11 +19,10 @@ header {
   align-items: center;
   justify-content: space-around;
 }
+
 .game {
   max-width: 800px;
   /* height: 800px; */
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 50px auto;
@@ -65,6 +64,7 @@ header {
   background-image: url(./pokeball.svg);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .rotate {
@@ -79,4 +79,15 @@ header {
   border: none;
   width: 125px;
   height: 50px;
+}
+
+@media screen and (min-width: 200px) and (max-width: 800px) {
+  .game {
+    max-width: 250px;
+    gap: 6px;
+  }
+  .card {
+    width: 50px;
+    height: 50px;
+  }
 }
